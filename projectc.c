@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #define WITH_ENGINE_TEMP_CONTROLLER 1
 enum Status{
-	ON = 0 ,OFF=1
+	ON = 1 ,OFF=0
 };
 struct vehicle{ // structure for the vehicle contain all the vehicle data
 	int speed  ;
